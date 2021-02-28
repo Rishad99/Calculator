@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 JS CALCULATOR 🔥</title>
+</head>
+<body>
+    <div class= "whole">
+        <h1 class="h1">JAVASCRIPT CALCULATOR</h1>
+        <div class="numbers">
+            <input type="button"  id="1" class="num" value="1" onclick="dispaly(1)"></input>
+            <input type="button"  id="2" class="num" value="2" onclick="dispaly(2)"></input>
+            <input type="button"  id="3" class="num" value="3" onclick="dispaly(3)"></input>
+            <input type="button"  id="0" class="num" value="0" onclick="dispaly(0)"></input><br>
+            <input type="button"  id="4" class="num" value="4" onclick="dispaly(4)"></input>
+            <input type="button"  id="5" class="num" value="5" onclick="dispaly(5)"></input>
+            <input type="button"  id="6" class="num" value="6" onclick="dispaly(6)">
+            <input type="button"  value = "+" id="plus" class="num" onclick="dispaly('+')" ></input></input><br>
+            <input type="button"  id="7" class="num" value="7" onclick="dispaly(7)"></input>
+            <input type="button"  id="8" class="num" value="8" onclick="dispaly(8)"></input>
+            <input type="button"  id="9" class="num" value="9" onclick="dispaly(9)"></input>
+            <input type="button"  value = "-" id="minus" class="num" onclick="dispaly('-')"></input><br>
+            <input type="button"  value="="   id="equal" class="num" onclick="solve()"></input>
+            <input type="button" value="AC"  class="num" onclick="clr()"/>
+            <input type="button"  value="/"   id="divide" class="num" onclick="dispaly('/')" ></input>
+            <input type="button"  value = "X" id="multiply" class="num" onclick="dispaly('*')"></input>
+            <br><br>
+        </div>
+        <div class="functional">
+            <input type="text" type="button" class="out"  id="call"></input>
+        </div>
+    
+
+    
+    </div>
+    
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
